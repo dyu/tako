@@ -68,7 +68,7 @@ authors = ["Daniel Boros <dancixx@gmail.com>"]
 ahash = { version = "0.8.12", features = ["serde"] }
 anyhow = "1.0.98"
 arc-swap = "1.7"
-async-graphql = { version = "7.2.1" }
+async-graphql = { version = "7.1.0" }
 async-trait = "0.1.88"
 base64 = "0.22.1"
 brotli = "8.0.1"
@@ -146,7 +146,7 @@ tako-rs-server-pt = { path = "tako-rs-server-pt", version = "2.6.0" }
 tako-rs-streams = { path = "tako-rs-streams", version = "2.6.0" }
 thread_local = "1.1.10"
 tikv-jemallocator = "0.7.0"
-tokio = { version = "1.53.3", features = ["fs", "io-util", "macros", "net", "rt", "rt-multi-thread", "signal", "sync", "time"] }
+tokio = { version = "1.47.5", features = ["fs", "io-util", "macros", "net", "rt", "rt-multi-thread", "signal", "sync", "time"] }
 tokio-rustls = "0.26.2"
 tokio-util = { version = "0.7.15", features = ["compat"] }
 tokio-vsock = "0.7.2"
